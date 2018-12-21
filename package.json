@@ -1,0 +1,24 @@
+{
+  "name": "depres",
+  "version": "0.0.1",
+  "description": "Dependency Resolver",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "pm2 start app/index.js",
+    "test": "jasmine",
+    "stop": "pm2 stop all"
+  },
+  "author": "Yftach Zur",
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "pm2": "^3.2.3"
+  },
+  "dependencies": {
+    "async": "latest",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0",
+    "semver": "latest",
+    "sync-request": "^6.0.0"
+  }
+}
